@@ -39,7 +39,7 @@ public class PrefixEvaluator
 	}
 	public static Tree treeConstruction(String[] tokens)
 	{
-		Tree connections= new PrefixEvaluator().new Tree(tokens[0],null);
+		Tree connections= new Tree(tokens[0],null);
 		Tree currParent=connections;
 		for(int x=1;x<tokens.length;x++)
 		{
@@ -51,7 +51,7 @@ public class PrefixEvaluator
 			{
 				currParent=currParent.getParent();
 			}
-			currParent= new PrefixEvaluator().new Tree(tokens[x],currParent);
+			currParent= new Tree(tokens[x],currParent);
 		}
 		return connections;
 	}
