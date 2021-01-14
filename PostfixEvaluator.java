@@ -39,7 +39,7 @@ public class PostfixEvaluator
 	}
 	public static Tree treeConstruction(String[] tokens)
 	{
-		Tree connections= new PostfixEvaluator().new Tree(tokens[0],null);
+		Tree connections= new Tree(tokens[0],null);
 		Tree currParent=connections;
 		for(int x=1;x<tokens.length;x++)
 		{
@@ -51,7 +51,7 @@ public class PostfixEvaluator
 			{
 				currParent=currParent.getParent();
 			}
-			currParent= new PostfixEvaluator().new Tree(tokens[x],currParent);
+			currParent= new Tree(tokens[x],currParent);
 		}
 		return connections;
 	}
