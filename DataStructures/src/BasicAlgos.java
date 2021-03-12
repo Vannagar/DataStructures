@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
-//made by Nihal Shivannagari (so it might not work)
 public class BasicAlgos
 	{
 		public BasicAlgos()
