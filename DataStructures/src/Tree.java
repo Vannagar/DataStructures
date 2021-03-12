@@ -1,5 +1,4 @@
 import java.util.*;
-//made by Nihal Shivannagari (so it might not work)
 public class Tree<V>
 	{
 		private V pointVal;
