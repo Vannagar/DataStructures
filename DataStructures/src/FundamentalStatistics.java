@@ -1,5 +1,4 @@
 import java.util.*;
-//made by Nihal Shivannagari (so it might not work)
 public class FundamentalStatistics
 {
 	//class will often pass border values for some variables
