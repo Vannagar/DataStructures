@@ -1,5 +1,4 @@
 import java.util.*;
-//compiled by Nihal Shivannagari from independent work and outside sources (so it might not work)
 public class Matrix 
 {
 	private final int M;             // number of rows
