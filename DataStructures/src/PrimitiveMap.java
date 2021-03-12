@@ -1,6 +1,4 @@
 import java.util.*;
-//made by Nihal Shivannagari (so it might not work)
-
 //this is extremely primitive and isn't very spatially efficient
 //this only works for integers
 public class PrimitiveMap
