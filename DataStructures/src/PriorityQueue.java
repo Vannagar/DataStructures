@@ -1,6 +1,4 @@
 import java.util.*;
-//made by Nihal Shivannagari (so it might not work)
-
 //for a normal queue just leave the value at index 1 the same number for all tuples
 //larger number for rank has higher priority
 public class PriorityQueue<V extends Comparable<V>>
