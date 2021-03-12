@@ -1,6 +1,4 @@
 import java.util.*;
-//made by Nihal Shivannagari (so it might not work)
-
 //tuple is super simple and kind of pointless but makes life easier
 public class Tuple<V extends Comparable<V>> implements Comparable<Tuple<V>>
 {
